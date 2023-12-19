@@ -1,7 +1,7 @@
 #ifndef TYPE_H
 #define TYPE_H
+#include <Eigen/Core>
 #include <vector>
-#include<Eigen/Core>
 
 typedef Eigen::Matrix4d Pose;
 typedef std::vector<Pose> Poses;
